@@ -1,0 +1,75 @@
+.contenedor {
+    background-image: url(../img/Peugeot_i-Cockpit-portada.jpg);
+    width:800px;
+    height:500px; 
+    position: absolute;
+    left: 20%;
+    right: 40%;
+}
+
+.botones{
+    background: rgb(240, 226, 106);
+    border-radius: 50%;
+    font-size: 25px;
+    border: solid 2px #000;
+}
+
+.encender{
+    position: absolute;
+    left: 50%;
+    top: 65%;  
+}
+
+.controladores{
+    position: absolute;
+    left: 38%;
+    top: 90%;
+}
+.process{
+    background: rgb(177, 166, 206);
+    position: absolute;
+    left: 8px;
+    top: 5px;
+    width: 15%;
+    height: 77%;
+    font-size: 20px;
+
+}
+
+.cajaCambios{
+    position: absolute;
+    left: 70%;
+    top: 60%;
+    font-size: 10px;
+}
+.leftL{
+    position: absolute;
+    left: 25%;
+    top: 35%;
+}
+.rightL{
+    position: absolute;
+    left: 55%;
+    top: 35%;
+}
+.left{
+    position: absolute;
+    left: 20%;
+    top: 55%;
+}
+.right{
+    position: absolute;
+    left: 60%;
+    top: 55%;
+}
+.luzP{
+    position: absolute;
+    left: 78%;
+    top: 35%;
+    
+}
+.break{
+    position: absolute;
+    left: 74%;
+    top: 80%;
+}

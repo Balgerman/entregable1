@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>carro</title>    
+</head>
+<body>
+    <div class="contenedor">
+     <button class="encender botones" id="btn_encendido" onclick="encendido">ON</button>
+
+     <div class="controladores">
+        <button class="clutch botones">CL</button>
+        <button class="frenos botones">FR</button>
+        <button class="acelerador botones">AC</button>
+     </div>
+     <div class="cajaCambios">
+      <button class="reversa botones" id="retro">R</button>
+      <button class="primera botones" id="primera">1</button>
+      <button class="tercera botones" id="tercera">3</button>
+      <button class="quinta botones" id="quinta">5</button>
+      <br>
+      <button class="neutro botones" id="neutro">N</button>
+      <button class="segunda botones" id="segunda">2</button> 
+      <button class="cuarta botones" id="cuarta">4</button>
+      <button class="sexta botones" id="sexta">6</button>
+      </div>
+      <div class="giro">
+        <div class="direccionales">
+          <button class="leftL botones">L</button>
+          <button class="rightL botones">R</button>
+        </div>
+        <div class="giro">
+          <button class="left botones">◄</button>
+          <button class="right botones">►</button>
+        </div>
+      </div>
+      <div class="luzParking">
+        <buttom class="luzP botones">▲</buttom>
+      </div>
+      <div class="frenoMano">
+        <button class="break botones" id="frenoM">Break</button>
+      </div>  
+    </div>
+    <div>
+      <div>
+        <fieldset class="process">
+          <legend>Procesos</legend>
+          <span class="minutos">0 </span>:<span id="segundos">0</span>
+        </fieldset>
+      </div>
+    </div>
+  <script src="app/encendido.js"></script>    
+</body>
+</html>
